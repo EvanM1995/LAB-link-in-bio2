@@ -1,3 +1,89 @@
 body {
-  background-color: aquamarine;
+  background: url(https://images.pexels.com/photos/1168764/pexels-photo-1168764.jpeg?cs=srgb&dl=pexels-vincent-gerbouin-1168764.jpg&fm=jpg);
+  background-blend-mode:overlay;
+  background-size: 1600px;
+  background-color:skyblue;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.info-buttons {
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  padding-right: 300px;
+  padding-left: 300px;
+  
+}
+
+.btn-primary {
+  background-color: indianred;
+  border-color: indianred;
+  padding: 10px 20px;
+  font-style: oblique;
+  font-size: larger;
+  
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-youtube {
+  color: black;
+}
+
+.social {
+ max-width: 100%;
+ justify-content: center;
+ padding-left: 580px;
+}
+
+ img {
+  border-radius: 50%;
+  height: 400px;
+}
+
+.profile {
+max-width: 100%;
+padding-left: 480px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  font-size: medium;
+}
+
+.contact {
+  position: absolute;
+  top: 490px;
+  left: 490px;
 }
